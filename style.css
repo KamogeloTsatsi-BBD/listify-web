@@ -348,6 +348,10 @@ nav a:hover {
         width: 100%;
     }
 
+    .use-case:nth-of-type(n+2) {
+        margin-top: 5rem;
+    }
+
     #closing-section {
         padding: 2rem 1rem;
         max-width: 90%;
