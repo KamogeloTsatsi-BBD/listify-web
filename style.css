@@ -40,7 +40,7 @@ header {
     width: 10rem;
 }
 
-header button {
+header a {
     background-color: var(--btn-bg-color);
     color: #fff;
     padding: 0.625rem 1.25rem;
@@ -49,9 +49,10 @@ header button {
     cursor: pointer;
     font-weight: bold;
     transition: 0.3s ease;
+    text-decoration: none;
 }
 
-header button:hover {
+header a:hover {
     background-color: var(--main-color);
     color: #fff;
     box-shadow: 0 0 0.625rem rgba(202, 109, 232, 0.8);
@@ -80,7 +81,7 @@ header button:hover {
     color: #555;
 }
 
-#introduction-section button {
+#introduction-section a {
     background-color:var(--btn-bg-color);
     color: #fff;
     padding: 0.75rem 2rem;
@@ -89,9 +90,10 @@ header button:hover {
     cursor: pointer;
     font-weight: 600;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
 }
 
-#introduction-section button:hover {
+#introduction-section a:hover {
     background-color: var(--main-color);
     transform: translateY(-0.2rem);
     box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.15);
@@ -232,7 +234,7 @@ header button:hover {
     color: var(--main-color);
 }
 
-#closing-section footer button {
+#closing-section footer a {
     padding: 0.8rem 2rem;
     font-size: 13pt;
     font-weight: bold;
@@ -242,9 +244,10 @@ header button:hover {
     border-radius: 2rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    text-decoration: none;
 }
 
-#closing-section footer button:hover {
+#closing-section footer a:hover {
     background-color: var(--main-color);
     box-shadow: 0 0 0.625rem rgba(202, 109, 232, 0.8);
 }
